@@ -1,4 +1,6 @@
-# jottakloud
+# jottakloud-rest
+
+__Work in progress__
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/ezand/jottakloud-rest.svg?branch=master)](https://travis-ci.org/ezand/jottakloud-rest)
