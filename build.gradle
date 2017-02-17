@@ -6,7 +6,6 @@ buildscript {
         gradle_release_version = '2.4.0'
         gradle_nexus_version = '2.3.1'
         gradle_nexus_staging_version = '0.5.3'
-        gradle_versioneye_version = '1.4.0'
         junit_gradle_plugin_version = '1.0.0-M3'
 
         kotlin_test_version = '1.0.6'
@@ -25,7 +24,6 @@ buildscript {
         classpath "net.researchgate:gradle-release:$gradle_release_version"
         classpath "com.bmuschko:gradle-nexus-plugin:$gradle_nexus_version"
         classpath "io.codearte.gradle.nexus:gradle-nexus-staging-plugin:$gradle_nexus_staging_version"
-        classpath "org.standardout:gradle-versioneye-plugin:$gradle_versioneye_version"
         classpath "org.junit.platform:junit-platform-gradle-plugin:$junit_gradle_plugin_version"
     }
 }
@@ -38,7 +36,6 @@ apply plugin: 'eclipse'
 apply plugin: 'net.researchgate.release'
 apply plugin: 'com.bmuschko.nexus'
 apply plugin: 'io.codearte.nexus-staging'
-apply plugin: 'org.standardout.versioneye'
 
 group = 'org.ezand.jottakloud'
 
